@@ -1,0 +1,10 @@
+spring:
+   application:
+      name: funcionarios-bar
+   
+server:
+   port: 8082
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8000/eureka
